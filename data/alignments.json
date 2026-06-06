@@ -1,0 +1,65 @@
+[
+  {
+    "id": "lg",
+    "name": "Lawful Good",
+    "code": "LG",
+    "description": "You act as a good person is expected to act. You help those in need and punish those who break rules.",
+    "traits": ["principled", "honorable", "protective"]
+  },
+  {
+    "id": "ng",
+    "name": "Neutral Good",
+    "code": "NG",
+    "description": "You do good things and help others because you want to, not because you have to follow rules.",
+    "traits": ["kind", "compassionate", "helpful"]
+  },
+  {
+    "id": "cg",
+    "name": "Chaotic Good",
+    "code": "CG",
+    "description": "You follow your own moral compass, disregarding laws and traditions if they stand in the way of helping others.",
+    "traits": ["rebellious", "free-spirited", "independent"]
+  },
+  {
+    "id": "ln",
+    "name": "Lawful Neutral",
+    "code": "LN",
+    "description": "You follow rules and traditions strictly, without letting personal feelings sway you.",
+    "traits": ["disciplined", "orderly", "reliable"]
+  },
+  {
+    "id": "n",
+    "name": "True Neutral",
+    "code": "N",
+    "description": "You avoid taking sides and do what seems best at the moment.",
+    "traits": ["practical", "adaptable", "flexible"]
+  },
+  {
+    "id": "cn",
+    "name": "Chaotic Neutral",
+    "code": "CN",
+    "description": "You act freely, following your impulses and valuing your freedom above all.",
+    "traits": ["unpredictable", "impulsive", "independent"]
+  },
+  {
+    "id": "le",
+    "name": "Lawful Evil",
+    "code": "LE",
+    "description": "You take what you want within a code of tradition, loyalty, or order.",
+    "traits": ["calculating", "organized", "ruthless"]
+  },
+  {
+    "id": "ne",
+    "name": "Neutral Evil",
+    "code": "NE",
+    "description": "You do whatever you can get away with, without loyalty or care for others.",
+    "traits": ["selfish", "opportunistic", "unscrupulous"]
+  },
+  {
+    "id": "ce",
+    "name": "Chaotic Evil",
+    "code": "CE",
+    "description": "You act with violence and destruction for its own sake, driven by hatred or chaos.",
+    "traits": ["violent", "destructive", "cruel"]
+  }
+]

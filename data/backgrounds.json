@@ -1,0 +1,112 @@
+[
+  {
+    "id": "acolyte",
+    "name": "Acolyte",
+    "ability_bonuses": [{"ability": "wisdom", "bonus": 2}, {"ability": "intelligence", "bonus": 1}],
+    "skill_proficiencies": ["insight", "religion"],
+    "tool_proficiencies": [],
+    "languages": 2,
+    "feat": "healer",
+    "equipment": ["holy symbol", "prayer book or prayer wheel", "5 gp"],
+    "description": "You have spent your life in service to a temple or religious order."
+  },
+  {
+    "id": "charlatan",
+    "name": "Charlatan",
+    "ability_bonuses": [{"ability": "dexterity", "bonus": 2}, {"ability": "charisma", "bonus": 1}],
+    "skill_proficiencies": ["deception", "sleight_of_hand"],
+    "tool_proficiencies": ["disguise kit", "forgery kit"],
+    "languages": 0,
+    "feat": "lucky",
+    "equipment": ["disguise kit", "forgery kit", "10 different fake identities", "15 gp"],
+    "description": "You have a talent for deception and manipulation."
+  },
+  {
+    "id": "criminal",
+    "name": "Criminal",
+    "ability_bonuses": [{"ability": "dexterity", "bonus": 2}, {"ability": "constitution", "bonus": 1}],
+    "skill_proficiencies": ["deception", "stealth"],
+    "tool_proficiencies": ["gaming set", "thieves' tools"],
+    "languages": 0,
+    "feat": "alert",
+    "equipment": ["thieves' tools", "set of fine clothes", "10 gp"],
+    "description": "You have a criminal past, but you left that life behind."
+  },
+  {
+    "id": "entertainer",
+    "name": "Entertainer",
+    "ability_bonuses": [{"ability": "charisma", "bonus": 2}, {"ability": "dexterity", "bonus": 1}],
+    "skill_proficiencies": ["acrobatics", "performance"],
+    "tool_proficiencies": ["musical instrument"],
+    "languages": 0,
+    "feat": "actor",
+    "equipment": ["musical instrument", "costume", "5 gp"],
+    "description": "You thrive in front of an audience and know how to entertain."
+  },
+  {
+    "id": "farmer",
+    "name": "Farmer",
+    "ability_bonuses": [{"ability": "constitution", "bonus": 2}, {"ability": "wisdom", "bonus": 1}],
+    "skill_proficiencies": ["animal_handling", "survival"],
+    "tool_proficiencies": ["vehicles (land)"],
+    "languages": 0,
+    "feat": "craftsman",
+    "equipment": ["farming tools", "hen or rooster", "10 gp"],
+    "description": "You grew up working the land, far from the cities."
+  },
+  {
+    "id": "guard",
+    "name": "Guard",
+    "ability_bonuses": [{"ability": "constitution", "bonus": 2}, {"ability": "wisdom", "bonus": 1}],
+    "skill_proficiencies": ["athletics", "perception"],
+    "tool_proficiencies": ["gaming set"],
+    "languages": 0,
+    "feat": "sentinel",
+    "equipment": ["spear", "shield", "10 gp"],
+    "description": "You served as a sentry or watchman in a city or settlement."
+  },
+  {
+    "id": "sage",
+    "name": "Sage",
+    "ability_bonuses": [{"ability": "intelligence", "bonus": 2}, {"ability": "wisdom", "bonus": 1}],
+    "skill_proficiencies": ["arcana", "history"],
+    "tool_proficiencies": [],
+    "languages": 2,
+    "feat": "lore_keeper",
+    "equipment": ["book of lore", "ink and quill", "10 gp"],
+    "description": "You spent years studying the ancient texts and lore."
+  },
+  {
+    "id": "sailor",
+    "name": "Sailor",
+    "ability_bonuses": [{"ability": "strength", "bonus": 2}, {"ability": "dexterity", "bonus": 1}],
+    "skill_proficiencies": ["athletics", "perception"],
+    "tool_proficiencies": ["navigator's tools", "vehicles (water)"],
+    "languages": 0,
+    "feat": "athlete",
+    "equipment": ["navigator's tools", "rope", "10 gp"],
+    "description": "You worked aboard ships, sailing the seas."
+  },
+  {
+    "id": "soldier",
+    "name": "Soldier",
+    "ability_bonuses": [{"ability": "strength", "bonus": 2}, {"ability": "constitution", "bonus": 1}],
+    "skill_proficiencies": ["athletics", "intimidation"],
+    "tool_proficiencies": ["gaming set", "vehicles (land)"],
+    "languages": 0,
+    "feat": "grappler",
+    "equipment": ["military insignia", "gaming set", "10 gp"],
+    "description": "You served as an infantry soldier in a war or military force."
+  },
+  {
+    "id": "wayfarer",
+    "name": "Wayfarer",
+    "ability_bonuses": [{"ability": "dexterity", "bonus": 2}, {"ability": "wisdom", "bonus": 1}],
+    "skill_proficiencies": ["navigation", "survival"],
+    "tool_proficiencies": ["cartographer's tools"],
+    "languages": 1,
+    "feat": "explorer",
+    "equipment": ["cartographer's tools", "traveler's clothes", "10 gp"],
+    "description": "You have traveled extensively and know the roads."
+  }
+]

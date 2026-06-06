@@ -1,0 +1,92 @@
+[
+  {
+    "id": "dragonborn",
+    "name": "Dragonborn",
+    "size": "medium",
+    "speed": 30,
+    "ability_bonuses": {"strength": 2, "charisma": 1},
+    "traits": ["draconic_ancestry", "breath_weapon", "damage_resistance"],
+    "languages": ["common", "draconic"],
+    "description": "Humanoid beings with dragon-like features."
+  },
+  {
+    "id": "dwarf",
+    "name": "Dwarf",
+    "size": "medium",
+    "speed": 25,
+    "ability_bonuses": {"constitution": 2},
+    "traits": ["darkvision", "dwarven_resilience", "dwarven_combat_training", "stonecunning"],
+    "languages": ["common", "dwarvish"],
+    "description": "Stout and hardy folk, skilled miners and craftsmen."
+  },
+  {
+    "id": "elf",
+    "name": "Elf",
+    "size": "medium",
+    "speed": 30,
+    "ability_bonuses": {"dexterity": 2},
+    "traits": ["darkvision", "keen_senses", "fey_ancestry", "trance"],
+    "languages": ["common", "elvish"],
+    "description": "Graceful and magical beings with ancient roots."
+  },
+  {
+    "id": "gnome",
+    "name": "Gnome",
+    "size": "small",
+    "speed": 25,
+    "ability_bonuses": {"intelligence": 2},
+    "traits": ["darkvision", "gnome_cunning"],
+    "languages": ["common", "gnomish"],
+    "description": "Small, curious folk with magical aptitude."
+  },
+  {
+    "id": "goliath",
+    "name": "Goliath",
+    "size": "medium",
+    "speed": 30,
+    "ability_bonuses": {"strength": 2, "constitution": 1},
+    "traits": ["powerful_build", "mountain_born", "stone's_endurance"],
+    "languages": ["common", "giant"],
+    "description": "Towering nomads from high mountain peaks."
+  },
+  {
+    "id": "halfling",
+    "name": "Halfling",
+    "size": "small",
+    "speed": 25,
+    "ability_bonuses": {"dexterity": 2, "charisma": 1},
+    "traits": ["lucky", "brave", "halfling_nimbleness"],
+    "languages": ["common", "halfling"],
+    "description": "Small, nimble folk known for luck and curiosity."
+  },
+  {
+    "id": "human",
+    "name": "Human",
+    "size": "medium",
+    "speed": 30,
+    "ability_bonuses": {"strength": 1, "dexterity": 1, "constitution": 1, "intelligence": 1, "wisdom": 1, "charisma": 1},
+    "traits": ["versatile", "extra_language"],
+    "languages": ["common"],
+    "description": "Ambitious and diverse, the most common folk."
+  },
+  {
+    "id": "orc",
+    "name": "Orc",
+    "size": "medium",
+    "speed": 30,
+    "ability_bonuses": {"strength": 2, "constitution": 1, "charisma": -1},
+    "traits": ["aggressive", "menacing", "relentless_endurance", "adrenaline_rush"],
+    "languages": ["common", "orc"],
+    "description": "Fierce warriors with savage strength."
+  },
+  {
+    "id": "tiefling",
+    "name": "Tiefling",
+    "size": "medium",
+    "speed": 30,
+    "ability_bonuses": {"charisma": 2, "intelligence": -1},
+    "traits": ["darkvision", "hellish_resistance", "infernal_legacy"],
+    "languages": ["common", "infernal"],
+    "description": "Humans with infernal heritage, marked by fiendish blood."
+  }
+]

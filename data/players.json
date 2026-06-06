@@ -1,0 +1,719 @@
+﻿{
+    "version":  1,
+    "players":  [
+                    {
+                        "id":  "31e7f7fb-a0f0-431d-9730-cc66e487f4d3",
+                        "name":  "Bob",
+                        "player":  "Bobiptus",
+                        "level":  1,
+                        "experience":  0,
+                        "class":  "cleric",
+                        "species":  "dwarf",
+                        "background":  "acolyte",
+                        "alignment":  "ng",
+                        "size":  "medium",
+                        "speed":  25,
+                        "abilities":  {
+                                          "strength":  15,
+                                          "dexterity":  15,
+                                          "charisma":  14,
+                                          "intelligence":  15,
+                                          "wisdom":  20,
+                                          "constitution":  16
+                                      },
+                        "hit_die":  "d8",
+                        "hit_dice":  {
+                                         "used":  0,
+                                         "total":  1,
+                                         "die":  "d8"
+                                     },
+                        "hit_points":  {
+                                           "current":  11,
+                                           "temporary":  0,
+                                           "max":  11
+                                       },
+                        "armor_class":  12,
+                        "initiative":  2,
+                        "proficiency_bonus":  2,
+                        "ability_modifiers":  {
+                                                  "constitution":  3,
+                                                  "strength":  2,
+                                                  "wisdom":  5,
+                                                  "charisma":  2,
+                                                  "intelligence":  2,
+                                                  "dexterity":  2
+                                              },
+                        "saving_throws":  {
+                                              "constitution":  {
+                                                                   "modifier":  3,
+                                                                   "total":  3,
+                                                                   "proficient":  false
+                                                               },
+                                              "strength":  {
+                                                               "modifier":  2,
+                                                               "total":  2,
+                                                               "proficient":  false
+                                                           },
+                                              "wisdom":  {
+                                                             "modifier":  5,
+                                                             "total":  7,
+                                                             "proficient":  true
+                                                         },
+                                              "charisma":  {
+                                                               "modifier":  2,
+                                                               "total":  4,
+                                                               "proficient":  true
+                                                           },
+                                              "intelligence":  {
+                                                                   "modifier":  2,
+                                                                   "total":  2,
+                                                                   "proficient":  false
+                                                               },
+                                              "dexterity":  {
+                                                                "modifier":  2,
+                                                                "total":  2,
+                                                                "proficient":  false
+                                                            }
+                                          },
+                        "saving_throw_proficiencies":  [
+                                                           "wisdom",
+                                                           "charisma"
+                                                       ],
+                        "skill_proficiencies":  [
+                                                    "medicine",
+                                                    "religion",
+                                                    "insight",
+                                                    "religion"
+                                                ],
+                        "skills":  {
+                                       "stealth":  {
+                                                       "modifier":  2,
+                                                       "total":  2,
+                                                       "proficient":  false
+                                                   },
+                                       "performance":  {
+                                                           "modifier":  2,
+                                                           "total":  2,
+                                                           "proficient":  false
+                                                       },
+                                       "perception":  {
+                                                          "modifier":  5,
+                                                          "total":  5,
+                                                          "proficient":  false
+                                                      },
+                                       "nature":  {
+                                                      "modifier":  2,
+                                                      "total":  2,
+                                                      "proficient":  false
+                                                  },
+                                       "medicine":  {
+                                                        "modifier":  5,
+                                                        "total":  7,
+                                                        "proficient":  true
+                                                    },
+                                       "intimidation":  {
+                                                            "modifier":  2,
+                                                            "total":  2,
+                                                            "proficient":  false
+                                                        },
+                                       "animal_handling":  {
+                                                               "modifier":  5,
+                                                               "total":  5,
+                                                               "proficient":  false
+                                                           },
+                                       "athletics":  {
+                                                         "modifier":  2,
+                                                         "total":  2,
+                                                         "proficient":  false
+                                                     },
+                                       "survival":  {
+                                                        "modifier":  5,
+                                                        "total":  5,
+                                                        "proficient":  false
+                                                    },
+                                       "investigation":  {
+                                                             "modifier":  2,
+                                                             "total":  2,
+                                                             "proficient":  false
+                                                         },
+                                       "deception":  {
+                                                         "modifier":  2,
+                                                         "total":  2,
+                                                         "proficient":  false
+                                                     },
+                                       "insight":  {
+                                                       "modifier":  5,
+                                                       "total":  7,
+                                                       "proficient":  true
+                                                   },
+                                       "navigation":  {
+                                                          "modifier":  5,
+                                                          "total":  5,
+                                                          "proficient":  false
+                                                      },
+                                       "sleight_of_hand":  {
+                                                               "modifier":  2,
+                                                               "total":  2,
+                                                               "proficient":  false
+                                                           },
+                                       "history":  {
+                                                       "modifier":  2,
+                                                       "total":  2,
+                                                       "proficient":  false
+                                                   },
+                                       "arcana":  {
+                                                      "modifier":  2,
+                                                      "total":  2,
+                                                      "proficient":  false
+                                                  },
+                                       "religion":  {
+                                                        "modifier":  2,
+                                                        "total":  4,
+                                                        "proficient":  true
+                                                    },
+                                       "persuasion":  {
+                                                          "modifier":  2,
+                                                          "total":  2,
+                                                          "proficient":  false
+                                                      },
+                                       "acrobatics":  {
+                                                          "modifier":  2,
+                                                          "total":  2,
+                                                          "proficient":  false
+                                                      }
+                                   },
+                        "tool_proficiencies":  [
+
+                                               ],
+                        "armor_proficiencies":  [
+                                                    "light",
+                                                    "medium",
+                                                    "shields"
+                                                ],
+                        "weapon_proficiencies":  [
+                                                     "simple"
+                                                 ],
+                        "languages":  [
+                                          "common",
+                                          "dwarvish",
+                                          "elvish",
+                                          "orc"
+                                      ],
+                        "feats":  [
+                                      "healer"
+                                  ],
+                        "traits":  [
+                                       "darkvision",
+                                       "dwarven_resilience",
+                                       "dwarven_combat_training",
+                                       "stonecunning"
+                                   ],
+                        "equipment":  [
+                                          {
+                                              "id":  "holy symbol",
+                                              "qty":  1
+                                          },
+                                          {
+                                              "id":  "prayer book or prayer wheel",
+                                              "qty":  1
+                                          },
+                                          {
+                                              "id":  "5 gp",
+                                              "qty":  1
+                                          }
+                                      ],
+                        "currency":  {
+                                         "ep":  0,
+                                         "pp":  0,
+                                         "sp":  0,
+                                         "gp":  0,
+                                         "cp":  0
+                                     },
+                        "description":  "Soy un enano seguidor de Kelemvor y que ama proteger la vida en todas sus formas",
+                        "melee_attack_bonus":  4,
+                        "ranged_attack_bonus":  4,
+                        "passive_perception":  15,
+                        "created_at":  "2026-06-05T16:39:47.2503278-07:00",
+                        "updated_at":  "2026-06-05T16:39:47.2513585-07:00"
+                    },
+                    {
+                        "id":  "f8fcf35e-3588-443f-8b20-1f306b0afe81",
+                        "name":  "hugo",
+                        "player":  "hugo",
+                        "level":  1,
+                        "experience":  0,
+                        "class":  "wizard",
+                        "species":  "gnome",
+                        "background":  "sage",
+                        "alignment":  "n",
+                        "size":  "small",
+                        "speed":  25,
+                        "abilities":  {
+                                          "strength":  8,
+                                          "dexterity":  13,
+                                          "charisma":  13,
+                                          "intelligence":  16,
+                                          "wisdom":  14,
+                                          "constitution":  12
+                                      },
+                        "hit_die":  "d6",
+                        "hit_dice":  {
+                                         "used":  0,
+                                         "total":  1,
+                                         "die":  "d6"
+                                     },
+                        "hit_points":  {
+                                           "current":  7,
+                                           "temporary":  0,
+                                           "max":  7
+                                       },
+                        "armor_class":  11,
+                        "initiative":  1,
+                        "proficiency_bonus":  2,
+                        "ability_modifiers":  {
+                                                  "constitution":  1,
+                                                  "strength":  -1,
+                                                  "wisdom":  2,
+                                                  "charisma":  1,
+                                                  "intelligence":  3,
+                                                  "dexterity":  1
+                                              },
+                        "saving_throws":  {
+                                              "constitution":  {
+                                                                   "modifier":  1,
+                                                                   "total":  1,
+                                                                   "proficient":  false
+                                                               },
+                                              "strength":  {
+                                                               "modifier":  -1,
+                                                               "total":  -1,
+                                                               "proficient":  false
+                                                           },
+                                              "wisdom":  {
+                                                             "modifier":  2,
+                                                             "total":  4,
+                                                             "proficient":  true
+                                                         },
+                                              "charisma":  {
+                                                               "modifier":  1,
+                                                               "total":  1,
+                                                               "proficient":  false
+                                                           },
+                                              "intelligence":  {
+                                                                   "modifier":  3,
+                                                                   "total":  5,
+                                                                   "proficient":  true
+                                                               },
+                                              "dexterity":  {
+                                                                "modifier":  1,
+                                                                "total":  1,
+                                                                "proficient":  false
+                                                            }
+                                          },
+                        "saving_throw_proficiencies":  [
+                                                           "intelligence",
+                                                           "wisdom"
+                                                       ],
+                        "skill_proficiencies":  [
+                                                    "arcana",
+                                                    "investigation",
+                                                    "arcana",
+                                                    "history"
+                                                ],
+                        "skills":  {
+                                       "stealth":  {
+                                                       "modifier":  1,
+                                                       "total":  1,
+                                                       "proficient":  false
+                                                   },
+                                       "performance":  {
+                                                           "modifier":  1,
+                                                           "total":  1,
+                                                           "proficient":  false
+                                                       },
+                                       "perception":  {
+                                                          "modifier":  2,
+                                                          "total":  2,
+                                                          "proficient":  false
+                                                      },
+                                       "nature":  {
+                                                      "modifier":  3,
+                                                      "total":  3,
+                                                      "proficient":  false
+                                                  },
+                                       "medicine":  {
+                                                        "modifier":  2,
+                                                        "total":  2,
+                                                        "proficient":  false
+                                                    },
+                                       "intimidation":  {
+                                                            "modifier":  1,
+                                                            "total":  1,
+                                                            "proficient":  false
+                                                        },
+                                       "animal_handling":  {
+                                                               "modifier":  2,
+                                                               "total":  2,
+                                                               "proficient":  false
+                                                           },
+                                       "athletics":  {
+                                                         "modifier":  -1,
+                                                         "total":  -1,
+                                                         "proficient":  false
+                                                     },
+                                       "survival":  {
+                                                        "modifier":  2,
+                                                        "total":  2,
+                                                        "proficient":  false
+                                                    },
+                                       "investigation":  {
+                                                             "modifier":  3,
+                                                             "total":  5,
+                                                             "proficient":  true
+                                                         },
+                                       "deception":  {
+                                                         "modifier":  1,
+                                                         "total":  1,
+                                                         "proficient":  false
+                                                     },
+                                       "insight":  {
+                                                       "modifier":  2,
+                                                       "total":  2,
+                                                       "proficient":  false
+                                                   },
+                                       "navigation":  {
+                                                          "modifier":  2,
+                                                          "total":  2,
+                                                          "proficient":  false
+                                                      },
+                                       "sleight_of_hand":  {
+                                                               "modifier":  1,
+                                                               "total":  1,
+                                                               "proficient":  false
+                                                           },
+                                       "history":  {
+                                                       "modifier":  3,
+                                                       "total":  5,
+                                                       "proficient":  true
+                                                   },
+                                       "arcana":  {
+                                                      "modifier":  3,
+                                                      "total":  5,
+                                                      "proficient":  true
+                                                  },
+                                       "religion":  {
+                                                        "modifier":  3,
+                                                        "total":  3,
+                                                        "proficient":  false
+                                                    },
+                                       "persuasion":  {
+                                                          "modifier":  1,
+                                                          "total":  1,
+                                                          "proficient":  false
+                                                      },
+                                       "acrobatics":  {
+                                                          "modifier":  1,
+                                                          "total":  1,
+                                                          "proficient":  false
+                                                      }
+                                   },
+                        "tool_proficiencies":  [
+
+                                               ],
+                        "armor_proficiencies":  [
+
+                                                ],
+                        "weapon_proficiencies":  [
+                                                     "daggers",
+                                                     "darts",
+                                                     "slings",
+                                                     "quarterstaffs",
+                                                     "light_crossbows"
+                                                 ],
+                        "languages":  [
+                                          "common",
+                                          "gnomish",
+                                          "elvish",
+                                          "orc"
+                                      ],
+                        "feats":  [
+                                      "lore_keeper"
+                                  ],
+                        "traits":  [
+                                       "darkvision",
+                                       "gnome_cunning"
+                                   ],
+                        "equipment":  [
+                                          {
+                                              "id":  "book of lore",
+                                              "qty":  1
+                                          },
+                                          {
+                                              "id":  "ink and quill",
+                                              "qty":  1
+                                          },
+                                          {
+                                              "id":  "10 gp",
+                                              "qty":  1
+                                          }
+                                      ],
+                        "currency":  {
+                                         "ep":  0,
+                                         "pp":  0,
+                                         "sp":  0,
+                                         "gp":  0,
+                                         "cp":  0
+                                     },
+                        "description":  "123",
+                        "melee_attack_bonus":  1,
+                        "ranged_attack_bonus":  3,
+                        "passive_perception":  12,
+                        "created_at":  "2026-06-05T17:06:16.1536052-07:00",
+                        "updated_at":  "2026-06-05T17:06:16.1536052-07:00"
+                    },
+                    {
+                        "id":  "8a344c44-7979-4ec9-88d4-2d0ac38317e1",
+                        "name":  "Alo",
+                        "player":  "Alo",
+                        "level":  1,
+                        "experience":  0,
+                        "class":  "druid",
+                        "species":  "elf",
+                        "background":  "acolyte",
+                        "alignment":  "n",
+                        "size":  "medium",
+                        "speed":  30,
+                        "abilities":  {
+                                          "strength":  15,
+                                          "dexterity":  16,
+                                          "charisma":  14,
+                                          "intelligence":  15,
+                                          "wisdom":  19,
+                                          "constitution":  17
+                                      },
+                        "hit_die":  "d8",
+                        "hit_dice":  {
+                                         "used":  0,
+                                         "total":  1,
+                                         "die":  "d8"
+                                     },
+                        "hit_points":  {
+                                           "current":  11,
+                                           "temporary":  0,
+                                           "max":  11
+                                       },
+                        "armor_class":  13,
+                        "initiative":  3,
+                        "proficiency_bonus":  2,
+                        "ability_modifiers":  {
+                                                  "constitution":  3,
+                                                  "strength":  2,
+                                                  "wisdom":  4,
+                                                  "charisma":  2,
+                                                  "intelligence":  2,
+                                                  "dexterity":  3
+                                              },
+                        "saving_throws":  {
+                                              "constitution":  {
+                                                                   "modifier":  3,
+                                                                   "total":  3,
+                                                                   "proficient":  false
+                                                               },
+                                              "strength":  {
+                                                               "modifier":  2,
+                                                               "total":  2,
+                                                               "proficient":  false
+                                                           },
+                                              "wisdom":  {
+                                                             "modifier":  4,
+                                                             "total":  6,
+                                                             "proficient":  true
+                                                         },
+                                              "charisma":  {
+                                                               "modifier":  2,
+                                                               "total":  2,
+                                                               "proficient":  false
+                                                           },
+                                              "intelligence":  {
+                                                                   "modifier":  2,
+                                                                   "total":  4,
+                                                                   "proficient":  true
+                                                               },
+                                              "dexterity":  {
+                                                                "modifier":  3,
+                                                                "total":  3,
+                                                                "proficient":  false
+                                                            }
+                                          },
+                        "saving_throw_proficiencies":  [
+                                                           "intelligence",
+                                                           "wisdom"
+                                                       ],
+                        "skill_proficiencies":  [
+                                                    "animal_handling",
+                                                    "nature",
+                                                    "insight",
+                                                    "religion"
+                                                ],
+                        "skills":  {
+                                       "stealth":  {
+                                                       "modifier":  3,
+                                                       "total":  3,
+                                                       "proficient":  false
+                                                   },
+                                       "performance":  {
+                                                           "modifier":  2,
+                                                           "total":  2,
+                                                           "proficient":  false
+                                                       },
+                                       "perception":  {
+                                                          "modifier":  4,
+                                                          "total":  4,
+                                                          "proficient":  false
+                                                      },
+                                       "nature":  {
+                                                      "modifier":  2,
+                                                      "total":  4,
+                                                      "proficient":  true
+                                                  },
+                                       "medicine":  {
+                                                        "modifier":  4,
+                                                        "total":  4,
+                                                        "proficient":  false
+                                                    },
+                                       "intimidation":  {
+                                                            "modifier":  2,
+                                                            "total":  2,
+                                                            "proficient":  false
+                                                        },
+                                       "animal_handling":  {
+                                                               "modifier":  4,
+                                                               "total":  6,
+                                                               "proficient":  true
+                                                           },
+                                       "athletics":  {
+                                                         "modifier":  2,
+                                                         "total":  2,
+                                                         "proficient":  false
+                                                     },
+                                       "survival":  {
+                                                        "modifier":  4,
+                                                        "total":  4,
+                                                        "proficient":  false
+                                                    },
+                                       "investigation":  {
+                                                             "modifier":  2,
+                                                             "total":  2,
+                                                             "proficient":  false
+                                                         },
+                                       "deception":  {
+                                                         "modifier":  2,
+                                                         "total":  2,
+                                                         "proficient":  false
+                                                     },
+                                       "insight":  {
+                                                       "modifier":  4,
+                                                       "total":  6,
+                                                       "proficient":  true
+                                                   },
+                                       "navigation":  {
+                                                          "modifier":  4,
+                                                          "total":  4,
+                                                          "proficient":  false
+                                                      },
+                                       "sleight_of_hand":  {
+                                                               "modifier":  3,
+                                                               "total":  3,
+                                                               "proficient":  false
+                                                           },
+                                       "history":  {
+                                                       "modifier":  2,
+                                                       "total":  2,
+                                                       "proficient":  false
+                                                   },
+                                       "arcana":  {
+                                                      "modifier":  2,
+                                                      "total":  2,
+                                                      "proficient":  false
+                                                  },
+                                       "religion":  {
+                                                        "modifier":  2,
+                                                        "total":  4,
+                                                        "proficient":  true
+                                                    },
+                                       "persuasion":  {
+                                                          "modifier":  2,
+                                                          "total":  2,
+                                                          "proficient":  false
+                                                      },
+                                       "acrobatics":  {
+                                                          "modifier":  3,
+                                                          "total":  3,
+                                                          "proficient":  false
+                                                      }
+                                   },
+                        "tool_proficiencies":  [
+
+                                               ],
+                        "armor_proficiencies":  [
+                                                    "light",
+                                                    "medium",
+                                                    "shields",
+                                                    "hide"
+                                                ],
+                        "weapon_proficiencies":  [
+                                                     "clubs",
+                                                     "daggers",
+                                                     "javelins",
+                                                     "maces",
+                                                     "quarterstaffs",
+                                                     "scimitars",
+                                                     "sickles",
+                                                     "slings",
+                                                     "spears"
+                                                 ],
+                        "languages":  [
+                                          "common",
+                                          "elvish",
+                                          "gnomish",
+                                          "orc"
+                                      ],
+                        "feats":  [
+                                      "healer"
+                                  ],
+                        "traits":  [
+                                       "darkvision",
+                                       "keen_senses",
+                                       "fey_ancestry",
+                                       "trance"
+                                   ],
+                        "equipment":  [
+                                          {
+                                              "id":  "holy symbol",
+                                              "qty":  1
+                                          },
+                                          {
+                                              "id":  "prayer book or prayer wheel",
+                                              "qty":  1
+                                          },
+                                          {
+                                              "id":  "5 gp",
+                                              "qty":  1
+                                          }
+                                      ],
+                        "currency":  {
+                                         "ep":  0,
+                                         "pp":  0,
+                                         "sp":  0,
+                                         "gp":  0,
+                                         "cp":  0
+                                     },
+                        "description":  "alo alala",
+                        "melee_attack_bonus":  4,
+                        "ranged_attack_bonus":  5,
+                        "passive_perception":  14,
+                        "created_at":  "2026-06-05T18:27:41.0477110-07:00",
+                        "updated_at":  "2026-06-05T18:27:41.0477110-07:00"
+                    }
+                ]
+}

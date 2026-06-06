@@ -1,0 +1,282 @@
+[
+  {
+    "id": "alert",
+    "name": "Alert",
+    "type": "origin",
+    "description": "You are impossible to surprise. You can take reactions on turns you aren't surprised.",
+    "effects": ["cannot_be_surprised", "add 5 to initiative"]
+  },
+  {
+    "id": "actor",
+    "name": "Actor",
+    "type": "origin",
+    "description": "You are adept at acting and deceiving. You have advantage on Performance and Deception checks.",
+    "effects": ["advantage_on_performance", "advantage_on_deception", "read_others_emotions"]
+  },
+  {
+    "id": "craftsman",
+    "name": "Craftsman",
+    "type": "origin",
+    "description": "You are skilled at crafting. You have proficiency with one tool of your choice.",
+    "effects": ["tool_proficiency", "expertise_in_craft_checks"]
+  },
+  {
+    "id": "athlete",
+    "name": "Athlete",
+    "type": "origin",
+    "description": "You are trained in athletics. Climbing and jumping are easier for you.",
+    "effects": ["climb_speed_equal_walk", "standing_long_jump_no_run", "half_speed_climb_no_check"]
+  },
+  {
+    "id": "charger",
+    "name": "Charger",
+    "type": "origin",
+    "description": "You can make a powerful charge attack. When you use Dash, you can make a melee attack as a bonus action.",
+    "effects": ["bonus_action_attack_after_dash", "extra_5_damage_if_move_10ft"]
+  },
+  {
+    "id": "crossbow_expert",
+    "name": "Crossbow Expert",
+    "type": "origin",
+    "description": "You ignore the loading property of crossbows and can fire in melee without disadvantage.",
+    "effects": ["ignore_loading", "no_disadvantage_melee_crossbow", "bonus_action_shot"]
+  },
+  {
+    "id": "defensive_duelist",
+    "name": "Defensive Duelist",
+    "type": "origin",
+    "description": "When wielding a finesse weapon and a creature attacks you, you can use your reaction to add your proficiency to AC.",
+    "effects": ["reaction_add_proficiency_to_AC_vs_melee"]
+  },
+  {
+    "id": "dual_wielder",
+    "name": "Dual Wielder",
+    "type": "origin",
+    "description": "You can use two-weapon fighting more effectively. You can draw two weapons in one action.",
+    "effects": ["two_weapon_fighting_no_light", "dual_wield_non_light", "AC_bonus_1_when_dual_wielding"]
+  },
+  {
+    "id": "dungeon_delver",
+    "name": "Dungeon Delver",
+    "type": "origin",
+    "description": "You are adept at navigating dungeons. You have advantage on Perception and Investigation checks for traps.",
+    "effects": ["advantage_trap_perception", "resistance_trap_damage"]
+  },
+  {
+    "id": "durable",
+    "name": "Durable",
+    "type": "origin",
+    "description": "You are tough and resilient. When you heal, you heal the maximum possible.",
+    "effects": ["heal_minimum_heal", "con_save_bonus"]
+  },
+  {
+    "id": "elemental_adept",
+    "name": "Elemental Adept",
+    "type": "origin",
+    "description": "You can choose one type of damage: fire, cold, lightning, or thunder. Spells you cast of that type ignore resistance.",
+    "effects": ["spell_damage_type_no_resistance", "extra_spell_slot_level_1"]
+  },
+  {
+    "id": "grappler",
+    "name": "Grappler",
+    "type": "origin",
+    "description": "You are skilled at grappling. You can use your bonus action to attempt to pin a creature.",
+    "effects": ["grapple_huge_creatures", "advantage_on_grapple_attacks", "bonus_action_pin"]
+  },
+  {
+    "id": "great_weapon_master",
+    "name": "Great Weapon Master",
+    "type": "origin",
+    "description": "You can make powerful attacks with heavy weapons. When you score a critical hit, you can make another attack.",
+    "effects": ["bonus_action_attack_on_crit", "reduce_attack_damage_for_extra_attack"]
+  },
+  {
+    "id": "healer",
+    "name": "Healer",
+    "type": "origin",
+    "description": "You are skilled at healing. You can stabilize creatures and your healing kits are more effective.",
+    "effects": ["stabilize_without_check", "healing_kit_heals_1d6_extra", "bonus_action_heal"]
+  },
+  {
+    "id": "heavy_armor_master",
+    "name": "Heavy Armor Master",
+    "type": "origin",
+    "description": "You are trained in heavy armor. While wearing heavy armor, you have damage reduction against bludgeoning, piercing, and slashing.",
+    "effects": ["damage_reduction_3_vs_nonmagical", "strength_requirement_waived"]
+  },
+  {
+    "id": "inspiring_leader",
+    "name": "Inspiring Leader",
+    "type": "origin",
+    "description": "You can inspire others with a speech. Allies within 30ft gain temporary HP.",
+    "effects": ["10_minute_rest_inspire_allies", "temp_hp_equal_level_plus_cha"]
+  },
+  {
+    "id": "keen_mind",
+    "name": "Keen Mind",
+    "type": "origin",
+    "description": "You have a mind that can track time, direction, and details perfectly.",
+    "effects": ["always_know_direction", "remember_everything_read", "learning_language_faster"]
+  },
+  {
+    "id": "lightly_armored",
+    "name": "Lightly Armored",
+    "type": "origin",
+    "description": "You are trained in light armor. You gain proficiency with light armor.",
+    "effects": ["armor_proficiency_light"]
+  },
+  {
+    "id": "lucky",
+    "name": "Lucky",
+    "type": "origin",
+    "description": "Fate favors you. You can reroll a d20, but must use the new result.",
+    "effects": ["3_luck_points", "reroll_advantage_against", "help_ally_attack"]
+  },
+  {
+    "id": "mage_slayer",
+    "name": "Mage Slayer",
+    "type": "origin",
+    "description": "You are trained to fight spellcasters. You can interrupt concentration and have advantage on saves against spells.",
+    "effects": ["reaction_attack_on_concentration", "advantage_vs_spell_effects", "concentration_save_damage_bonus"]
+  },
+  {
+    "id": "martial_adept",
+    "name": "Martial Adept",
+    "type": "origin",
+    "description": "You have training in martial techniques. You learn two maneuvers from the Battle Master archetype.",
+    "effects": ["2_maneuvers", "1_maneuver_die_d6", "4_superiority_dice"]
+  },
+  {
+    "id": "medium_armor_master",
+    "name": "Medium Armor Master",
+    "type": "origin",
+    "description": "You are trained in medium armor. You have no disadvantage on Stealth while wearing medium armor.",
+    "effects": ["no_stealth_disadvantage_medium", "dex_bonus_full_medium_armor"]
+  },
+  {
+    "id": "mobile",
+    "name": "Mobile",
+    "type": "origin",
+    "description": "You are swift and agile. Difficult terrain doesn't slow your movement and you don't provoke opportunity attacks.",
+    "effects": ["difficult_terrain_no_slow", "no_OA_from_movement", "10ft_extra_movement"]
+  },
+  {
+    "id": "moderately_armored",
+    "name": "Moderately Armored",
+    "type": "origin",
+    "description": "You are trained in medium armor and shields. You gain proficiency with medium armor and shields.",
+    "effects": ["armor_proficiency_medium", "shield_proficiency"]
+  },
+  {
+    "id": "observant",
+    "name": "Observant",
+    "type": "origin",
+    "description": "You are keen-eyed and perceptive. You can read lips and notice hidden creatures more easily.",
+    "effects": ["passive_perception_bonus_5", "read_lips", "investigation_bonus_5"]
+  },
+  {
+    "id": "polearm_master",
+    "name": "Polearm Master",
+    "type": "origin",
+    "description": "You can use polearms more effectively. You can make a bonus action attack with the butt of the weapon.",
+    "effects": ["bonus_action_attack", "reaction_attack_when_enemy_approaches"]
+  },
+  {
+    "id": "resilient",
+    "name": "Resilient",
+    "type": "origin",
+    "description": "You have training in one ability saving throw of your choice.",
+    "effects": ["save_proficiency_one_ability"]
+  },
+  {
+    "id": "ritual_caster",
+    "name": "Ritual Caster",
+    "type": "origin",
+    "description": "You can cast spells as rituals if you have them prepared. You can cast two level 1 spells as rituals.",
+    "effects": ["cast_spell_as_ritual", "2_level_1_spell_slots_ritual"]
+  },
+  {
+    "id": "savage_attacker",
+    "name": "Savage Attacker",
+    "type": "origin",
+    "description": "You can make particularly vicious attacks. You can reroll damage dice.",
+    "effects": ["reroll_damage_dice_once"]
+  },
+  {
+    "id": "sentinel",
+    "name": "Sentinel",
+    "type": "origin",
+    "description": "You are a master of defending others. You can stop enemies from moving past you.",
+    "effects": ["OA_even_if_attacked", "stop_enemy_move_adjacent", "protect_ally_reaction"]
+  },
+  {
+    "id": "sharpshooter",
+    "name": "Sharpshooter",
+    "type": "origin",
+    "description": "You are a master of ranged weapons. Your long-range attacks are deadly.",
+    "effects": ["no_long_range_disadvantage", "ignore_half_cover", "bonus_action_attack"]
+  },
+  {
+    "id": "shield_master",
+    "name": "Shield Master",
+    "type": "origin",
+    "description": "You can use your shield to protect yourself and others. You can shove with your shield.",
+    "effects": ["shove_bonus_action", "no_OA_after_shield", "dex_save_bonus_shield"]
+  },
+  {
+    "id": "skilled",
+    "name": "Skilled",
+    "type": "origin",
+    "description": "You can choose three skills or tools to gain proficiency in.",
+    "effects": ["choose_3_skills_or_tools"]
+  },
+  {
+    "id": "slasher",
+    "name": "Slasher",
+    "type": "origin",
+    "description": "You are trained to cut with blades. Slashing weapon critical hits reduce speed.",
+    "effects": ["crit_reduces_speed_10ft", "attack_roll_debuff_roll"]
+  },
+  {
+    "id": "spell_sniper",
+    "name": "Spell Sniper",
+    "type": "origin",
+    "description": "You are trained in ranged spell attacks. You can cast spells at long range without disadvantage.",
+    "effects": ["no_long_range_disadvantage_spell", "double_spell_range", "learn_cantrip"]
+  },
+  {
+    "id": "tavern_brawler",
+    "name": "Tavern Brawler",
+    "type": "origin",
+    "description": "You are trained in fighting with improvised weapons and unarmed strikes.",
+    "effects": ["unarmed_strike_damage_d4", "improvised_weapon_proficiency", "grapple_bonus_action"]
+  },
+  {
+    "id": "terrain_expert",
+    "name": "Terrain Expert",
+    "type": "origin",
+    "description": "You are familiar with one type of terrain. You are never slowed in that terrain.",
+    "effects": ["choose_terrain_no_slow", "choose_terrain_advantage"]
+  },
+  {
+    "id": "weapon_master",
+    "name": "Weapon Master",
+    "type": "origin",
+    "description": "You master a variety of weapons. You gain proficiency with four weapons of your choice.",
+    "effects": ["choose_4_weapon_proficiencies", "ability_score_increase_1"]
+  },
+  {
+    "id": "explorer",
+    "name": "Explorer",
+    "type": "origin",
+    "description": "You are skilled at navigating the wild. You are never slowed by difficult terrain.",
+    "effects": ["no_slow_difficult_terrain", "track_while_traveling"]
+  },
+  {
+    "id": "lore_keeper",
+    "name": "Lore Keeper",
+    "type": "origin",
+    "description": "You have studied ancient lore. You can identify magic items and have advantage on History checks.",
+    "effects": ["identify_magic_items", "advantage_history"]
+  }
+]

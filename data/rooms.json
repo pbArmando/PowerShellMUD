@@ -1,0 +1,50 @@
+{
+  "grid_width": 2,
+  "grid_height": 2,
+  "rooms": [
+    {
+      "x": 0,
+      "y": 0,
+      "name": "Habitacion (0,0)",
+      "exits": {
+        "n": null,
+        "s": { "x": 0, "y": 1 },
+        "e": { "x": 1, "y": 0 },
+        "w": null
+      }
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "name": "Habitacion (1,0)",
+      "exits": {
+        "n": null,
+        "s": { "x": 1, "y": 1 },
+        "e": null,
+        "w": { "x": 0, "y": 0 }
+      }
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "name": "Habitacion (0,1)",
+      "exits": {
+        "n": { "x": 0, "y": 0 },
+        "s": null,
+        "e": { "x": 1, "y": 1 },
+        "w": null
+      }
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "name": "Habitacion (1,1)",
+      "exits": {
+        "n": { "x": 1, "y": 0 },
+        "s": null,
+        "e": null,
+        "w": { "x": 0, "y": 1 }
+      }
+    }
+  ]
+}

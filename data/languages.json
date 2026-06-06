@@ -1,0 +1,25 @@
+{
+  "standard": [
+    {"id": "common", "name": "Common", "origin": "Sigil", "script": "Common"},
+    {"id": "common_sign", "name": "Common Sign Language", "origin": "Sigil", "script": "Sign"},
+    {"id": "draconic", "name": "Draconic", "origin": "Dragons", "script": "Draconic"},
+    {"id": "dwarvish", "name": "Dwarvish", "origin": "Dwarves", "script": "Dwarvish"},
+    {"id": "elvish", "name": "Elvish", "origin": "Elves", "script": "Elvish"},
+    {"id": "giant", "name": "Giant", "origin": "Giants", "script": "Dwarvish"},
+    {"id": "gnomish", "name": "Gnomish", "origin": "Gnomes", "script": "Dwarvish"},
+    {"id": "goblin", "name": "Goblin", "origin": "Goblins", "script": "Dwarvish"},
+    {"id": "halfling", "name": "Halfling", "origin": "Halflings", "script": "Common"},
+    {"id": "orc", "name": "Orc", "origin": "Orcs", "script": "Dwarvish"}
+  ],
+  "rare": [
+    {"id": "abyssal", "name": "Abyssal", "origin": "Demons of the Abyss", "script": "Infernal"},
+    {"id": "celestial", "name": "Celestial", "origin": "Celestials", "script": "Celestial"},
+    {"id": "deep_speech", "name": "Deep Speech", "origin": "Aberrations", "script": "None"},
+    {"id": "druidic", "name": "Druidic", "origin": "Druidic circles", "script": "Druidic"},
+    {"id": "infernal", "name": "Infernal", "origin": "Devils of the Nine Hells", "script": "Infernal"},
+    {"id": "primordial", "name": "Primordial", "origin": "Elementals", "script": "Dwarvish", "dialects": ["Aquan", "Auran", "Ignan", "Terran"]},
+    {"id": "sylvan", "name": "Sylvan", "origin": "The Feywild", "script": "Elvish"},
+    {"id": "thieves_cant", "name": "Thieves' Cant", "origin": "Various criminal guilds", "script": "Common"},
+    {"id": "undercommon", "name": "Undercommon", "origin": "The Underdark", "script": "Elvish"}
+  ]
+}

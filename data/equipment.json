@@ -1,0 +1,340 @@
+{
+  "weapons": [
+    {
+      "id": "club",
+      "name": "Club",
+      "type": "simple",
+      "damage": "1d4",
+      "damage_type": "bludgeoning",
+      "properties": ["light"],
+      "cost": "1 sp",
+      "weight": 2
+    },
+    {
+      "id": "dagger",
+      "name": "Dagger",
+      "type": "simple",
+      "damage": "1d4",
+      "damage_type": "piercing",
+      "properties": ["finesse", "light", "thrown (range 20/60)"],
+      "cost": "2 gp",
+      "weight": 1
+    },
+    {
+      "id": "greatclub",
+      "name": "Greatclub",
+      "type": "simple",
+      "damage": "1d8",
+      "damage_type": "bludgeoning",
+      "properties": ["two-handed"],
+      "cost": "2 sp",
+      "weight": 10
+    },
+    {
+      "id": "handaxe",
+      "name": "Handaxe",
+      "type": "simple",
+      "damage": "1d6",
+      "damage_type": "slashing",
+      "properties": ["light", "thrown (range 20/60)"],
+      "cost": "5 gp",
+      "weight": 2
+    },
+    {
+      "id": "javelin",
+      "name": "Javelin",
+      "type": "simple",
+      "damage": "1d6",
+      "damage_type": "piercing",
+      "properties": ["thrown (range 30/120)"],
+      "cost": "5 sp",
+      "weight": 2
+    },
+    {
+      "id": "light_hammer",
+      "name": "Light Hammer",
+      "type": "simple",
+      "damage": "1d4",
+      "damage_type": "bludgeoning",
+      "properties": ["light", "thrown (range 20/60)"],
+      "cost": "2 gp",
+      "weight": 2
+    },
+    {
+      "id": "mace",
+      "name": "Mace",
+      "type": "simple",
+      "damage": "1d6",
+      "damage_type": "bludgeoning",
+      "properties": [],
+      "cost": "5 gp",
+      "weight": 4
+    },
+    {
+      "id": "quarterstaff",
+      "name": "Quarterstaff",
+      "type": "simple",
+      "damage": "1d6",
+      "damage_type": "bludgeoning",
+      "properties": ["versatile (1d8)"],
+      "cost": "2 sp",
+      "weight": 4
+    },
+    {
+      "id": "sickle",
+      "name": "Sickle",
+      "type": "simple",
+      "damage": "1d4",
+      "damage_type": "slashing",
+      "properties": ["light"],
+      "cost": "2 gp",
+      "weight": 2
+    },
+    {
+      "id": "spear",
+      "name": "Spear",
+      "type": "simple",
+      "damage": "1d6",
+      "damage_type": "piercing",
+      "properties": ["thrown (range 20/60)", "versatile (1d8)"],
+      "cost": "1 gp",
+      "weight": 3
+    },
+    {
+      "id": "crossbow_light",
+      "name": "Light Crossbow",
+      "type": "simple",
+      "damage": "1d8",
+      "damage_type": "piercing",
+      "properties": ["ammunition (range 80/320)", "loading", "two-handed"],
+      "cost": "25 gp",
+      "weight": 5
+    },
+    {
+      "id": "dart",
+      "name": "Dart",
+      "type": "simple",
+      "damage": "1d4",
+      "damage_type": "piercing",
+      "properties": ["finesse", "thrown (range 20/60)"],
+      "cost": "5 cp",
+      "weight": 0.25
+    },
+    {
+      "id": "shortbow",
+      "name": "Shortbow",
+      "type": "simple",
+      "damage": "1d6",
+      "damage_type": "piercing",
+      "properties": ["ammunition (range 60/240)", "two-handed"],
+      "cost": "25 gp",
+      "weight": 2
+    },
+    {
+      "id": "sling",
+      "name": "Sling",
+      "type": "simple",
+      "damage": "1d4",
+      "damage_type": "bludgeoning",
+      "properties": ["ammunition (range 30/120)"],
+      "cost": "1 sp",
+      "weight": 0
+    },
+    {
+      "id": "longsword",
+      "name": "Longsword",
+      "type": "martial",
+      "damage": "1d8",
+      "damage_type": "slashing",
+      "properties": ["versatile (1d10)"],
+      "cost": "15 gp",
+      "weight": 3
+    },
+    {
+      "id": "greataxe",
+      "name": "Greataxe",
+      "type": "martial",
+      "damage": "1d12",
+      "damage_type": "slashing",
+      "properties": ["heavy", "two-handed"],
+      "cost": "30 gp",
+      "weight": 7
+    },
+    {
+      "id": "greatsword",
+      "name": "Greatsword",
+      "type": "martial",
+      "damage": "2d6",
+      "damage_type": "slashing",
+      "properties": ["heavy", "two-handed"],
+      "cost": "50 gp",
+      "weight": 6
+    },
+    {
+      "id": "halberd",
+      "name": "Halberd",
+      "type": "martial",
+      "damage": "1d10",
+      "damage_type": "slashing",
+      "properties": ["heavy", "reach", "two-handed"],
+      "cost": "20 gp",
+      "weight": 6
+    },
+    {
+      "id": "longbow",
+      "name": "Longbow",
+      "type": "martial",
+      "damage": "1d8",
+      "damage_type": "piercing",
+      "properties": ["ammunitation (range 150/600)", "heavy", "two-handed"],
+      "cost": "50 gp",
+      "weight": 2
+    },
+    {
+      "id": "rapier",
+      "name": "Rapier",
+      "type": "martial",
+      "damage": "1d8",
+      "damage_type": "piercing",
+      "properties": ["finesse"],
+      "cost": "25 gp",
+      "weight": 2
+    },
+    {
+      "id": "shield",
+      "name": "Shield",
+      "type": "armor",
+      "ac_bonus": 2,
+      "properties": [],
+      "cost": "10 gp",
+      "weight": 6
+    }
+  ],
+  "armor": [
+    {
+      "id": "padded",
+      "name": "Padded Armor",
+      "type": "light",
+      "ac": 11,
+      "dex_modifier": true,
+      "stealth_disadvantage": true,
+      "cost": "5 gp",
+      "weight": 8
+    },
+    {
+      "id": "leather",
+      "name": "Leather Armor",
+      "type": "light",
+      "ac": 11,
+      "dex_modifier": true,
+      "stealth_disadvantage": false,
+      "cost": "10 gp",
+      "weight": 10
+    },
+    {
+      "id": "studded_leather",
+      "name": "Studded Leather Armor",
+      "type": "light",
+      "ac": 12,
+      "dex_modifier": true,
+      "stealth_disadvantage": false,
+      "cost": "45 gp",
+      "weight": 13
+    },
+    {
+      "id": "hide",
+      "name": "Hide Armor",
+      "type": "medium",
+      "ac": 12,
+      "dex_modifier": true,
+      "max_dex": 2,
+      "stealth_disadvantage": false,
+      "cost": "10 gp",
+      "weight": 12
+    },
+    {
+      "id": "chain_shirt",
+      "name": "Chain Shirt",
+      "type": "medium",
+      "ac": 13,
+      "dex_modifier": true,
+      "max_dex": 2,
+      "stealth_disadvantage": false,
+      "cost": "50 gp",
+      "weight": 20
+    },
+    {
+      "id": "scale_mail",
+      "name": "Scale Mail",
+      "type": "medium",
+      "ac": 14,
+      "dex_modifier": true,
+      "max_dex": 2,
+      "stealth_disadvantage": true,
+      "cost": "50 gp",
+      "weight": 45
+    },
+    {
+      "id": "breastplate",
+      "name": "Breastplate",
+      "type": "medium",
+      "ac": 14,
+      "dex_modifier": true,
+      "max_dex": 2,
+      "stealth_disadvantage": false,
+      "cost": "400 gp",
+      "weight": 20
+    },
+    {
+      "id": "half_plate",
+      "name": "Half Plate",
+      "type": "medium",
+      "ac": 15,
+      "dex_modifier": true,
+      "max_dex": 2,
+      "stealth_disadvantage": true,
+      "cost": "750 gp",
+      "weight": 30
+    },
+    {
+      "id": "ring_mail",
+      "name": "Ring Mail",
+      "type": "heavy",
+      "ac": 14,
+      "dex_modifier": false,
+      "stealth_disadvantage": true,
+      "cost": "30 gp",
+      "weight": 40
+    },
+    {
+      "id": "chain_mail",
+      "name": "Chain Mail",
+      "type": "heavy",
+      "ac": 16,
+      "dex_modifier": false,
+      "stealth_disadvantage": true,
+      "cost": "75 gp",
+      "weight": 55
+    },
+    {
+      "id": "splint",
+      "name": "Splint Armor",
+      "type": "heavy",
+      "ac": 17,
+      "dex_modifier": false,
+      "stealth_disadvantage": true,
+      "cost": "200 gp",
+      "weight": 60
+    },
+    {
+      "id": "plate",
+      "name": "Plate Armor",
+      "type": "heavy",
+      "ac": 18,
+      "dex_modifier": false,
+      "stealth_disadvantage": true,
+      "cost": "1500 gp",
+      "weight": 65
+    }
+  ]
+}
